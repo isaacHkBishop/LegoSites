@@ -1,0 +1,134 @@
+<html>
+    <head>        
+        <style>
+            header{
+                width: 800px;
+                height: 100px;
+                background-color: #f00;
+            }
+            nav{
+                float: right;
+                width: 450px;
+                height: 80px;
+                margin-top: 10px;
+                background-color: #fff;
+                position: relative; 
+                margin-right: 20px;
+            }
+            main{
+                width: 800px;
+                overflow: auto;
+            }
+            article{
+                width: 654px;
+                height: 290px;
+                float: right;
+                background-color: #ff0;
+                overflow: auto;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+            aside{
+                width: 126px;
+                height: 300px;
+                float: left;
+                background-color: #00f;
+                color: #fff;
+            }
+            section{
+                width: 800px;
+                overflow: auto;
+            }
+            footer{
+                width: 800px;
+                height: 30px;
+                background-color: #0f0;
+            }
+            hr{
+                border: 2px solid blue;
+                position: absolute; 
+                left: 0;
+                right: 0;
+                top: 37px; 
+                margin: 0 0px; 
+            }
+            .nav-items{
+                display: flex;
+                margin-top: 9px; 
+            }
+            .nav-item{
+                text-align: center;
+                width: calc(100% / 6); 
+            }
+            .nav-item img{
+                position: relative;
+                z-index: 1; 
+                width: 50px;
+                height: 50px;
+            }
+            .nav-label{
+                cursor: default;
+            }
+        </style>
+        <title>Lego</title>
+    </head>
+    <body>
+        <header>
+            <img src="assets/logo.jpg" alt="logo" align="left">
+            header 
+            <nav>
+                <div class="nav-items">
+                    <hr>
+                    <div class="nav-item">
+                        <a href="pictures/home.jpg">
+                            <img src="pictures/home.jpg" alt="Home">
+                        </a>
+                        <div class="nav-label">
+                            Home
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="pictures/fire.jpg">
+                            <img src="pictures/fire.jpg" alt="Fire">
+                        </a>
+                        <div class="nav-label">Fire</div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="pictures/space.jpg">
+                            <img src="pictures/space.jpg" alt="Space">
+                        </a>
+                        <div class="nav-label">Space</div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="pictures/car.jpg">
+                            <img src="pictures/car.jpg" alt="Car">
+                        </a>
+                        <div class="nav-label">Car</div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="pictures/viking.jpg">
+                            <img src="pictures/viking.jpg" alt="Viking">
+                        </a>
+                        <div class="nav-label">Viking</div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="pictures/contact.jpg">
+                            <img src="pictures/contact.jpg" alt="Contact">
+                        </a>
+                        <div class="nav-label">Contact</div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article>article</article>
+            <aside>
+                <img src="assets/slogan.jpg" alt="slogan">
+                aside
+            </aside>
+            <section>section</section>
+        </main>
+        <footer>footer</footer>
+    </body>    
+</html>
